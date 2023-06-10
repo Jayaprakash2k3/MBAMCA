@@ -1,0 +1,1327 @@
+[
+  {
+    "ccode": "1",
+    "can": "University Departments of Anna University, Chennai - CEG Campus, Sardar Patel Road, Guindy, Chennai 600 025",
+    "Category": "UNIV"
+  },
+  {
+    "ccode": "1ESS",
+    "can": "University Departments of Anna University, Chennai - CEG Campus, Sardar Patel Road, Guindy, Chennai 600 025",
+    "Category": "UNIV"
+  },
+  {
+    "ccode": "5",
+    "can": "Annamalai University Faculty of Engineering and Technology,Annamalai nagar,Cuddalore 608002",
+    "Category": "UNIV"
+  },
+  {
+    "ccode": "507",
+    "can": "Nehru Institute of Information Technology and Management (STAND ALONE), Thirumalayampalayam, Coimbatore District 641105",
+    "Category": "SA (NM)"
+  },
+  {
+    "ccode": "516",
+    "can": "Sri Venkateswara College of Computer Applications and Management (STAND ALONE), Ettimalai, Coimbatore District 641 112",
+    "Category": "SA (NM)"
+  },
+  {
+    "ccode": "520",
+    "can": "Vivekanandha Institute of Information and Management Studies for Women (STAND ALONE), Elayampalayam Post, Tiruchengode, Namakkal District 637205",
+    "Category": "SA (NM)"
+  },
+  {
+    "ccode": "542",
+    "can": "Vasavi Vidya Trust Group of Institutions (STAND ALONE), Vysya College Campus, Ramakrishnapuram, Masinaickenpatty, Ayothiyapattinam Post, Salem District 636103",
+    "Category": "SA (NM)"
+  },
+  {
+    "ccode": "710",
+    "can": "University of Madras, Chepauk, Chennai 600005",
+    "Category": "UNIV"
+  },
+  {
+    "ccode": "714",
+    "can": "S S M College of Engineering (STAND ALONE), Komarapalayam, Namakkal District 638183",
+    "Category": "SA (NM)"
+  },
+  {
+    "ccode": "1106",
+    "can": "Jaya Engineering College, Thirunindravur, Chennai 602024",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "1114",
+    "can": "S A Engineering College (AUTONOMOUS), Thiruverkadu, Chennai 600077",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "1116",
+    "can": "Sri Venkateswara College of Engineering and Technology, Thirupachur, Thiruvallur District 631203",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "1209",
+    "can": "Pallavan College of Engineering, Thimmasamudram, Kancheepuram District 631502",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1218",
+    "can": "Sri Muthukumaran Institute of Technology, Near Mangadu, Chennai 600069",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "1318",
+    "can": "T.J. Institute of Technology, Rajiv Gandhi Salai, Karapakkam, Chennai - 600 097.",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "1322",
+    "can": "Dhanalakshmi Srinivasan College of Engineering and Technology, East Coast Road, Poonjeri, Chennai 603104",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "1334",
+    "can": "ARS College of Engineering, Maraimalai Nagar Post, Kancheepuram District 603209",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1401",
+    "can": "Adhiparasakthi Engineering College, Melmaruvathur, Kancheepuram District 603319",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1409",
+    "can": "Karpagavinayaga College of Engineering and Technology, Palayanoor Post, Maduranthagam Taluk, Kancheepuram District 603308",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1411",
+    "can": "Madha Engineering College, Kundrathur, Chennai 600069",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "1412",
+    "can": "Mailam Engineering College, Mailam, Villupuram District 604304",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1431",
+    "can": "New Prince Shri Bhavani College of Engineering and Technology, Vengaivasal Main Road, Gowrivakkam, Chennai 600073",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1503",
+    "can": "Arulmigu  Meenakshi Amman College of Engineering, Vadamavandal,Thiruvannamalai District 604410",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "1505",
+    "can": "C Abdul Hakeem College of Engineering and Technology, Melvisharam, Ranipet District 632509",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "1507",
+    "can": "Ganadipathy Tulsi�s Jain Engineering College, Kaniyambadi, Vellore District 632102",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1509",
+    "can": "Meenakshi College of Engineering, Vembuliamman Koil Street, K K Nagar (West), Chennai 600078",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "1510",
+    "can": "Priyadarshini Engineering College, Vaniyambadi Post, Thirupathur District 635751",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1513",
+    "can": "Sri Balaji Chockalingam Engineering College, Arni, Thiruvannamalai District 632317",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1516",
+    "can": "Thanthai Periyar Government Institute of Technology, Bagayam, Vellore District 632002",
+    "Category": "GOVT"
+  },
+  {
+    "ccode": "1517",
+    "can": "Thirumalai Engineering College, Kilambi, Kancheepuram District 631551",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1518",
+    "can": "Thiruvalluvar College of Engineering and Technology, Vandavasi, Thiruvannamalai District 604505",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2006",
+    "can": "PSG College of Technology (AUTONOMOUS), Peelamedu, Coimbatore District 641004",
+    "Category": "GA(AIDED)"
+  },
+  {
+    "ccode": "2006SS",
+    "can": "PSG College of Technology (AUTONOMOUS), Peelamedu, Coimbatore District 641004",
+    "Category": "GA(SS)"
+  },
+  {
+    "ccode": "2007",
+    "can": "Coimbatore Institute of Technology (AUTONOMOUS), Civil Aerodrome Post, Coimbatore District 641014",
+    "Category": "GA(SS)"
+  },
+  {
+    "ccode": "2601",
+    "can": "Adhiyamaan  College of Engineering (AUTONOMOUS),  Hosur, Krishnagiri District 635109",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2606",
+    "can": "Jayam College of Engineering and Technology, Nallanur Post, Dharmapuri District 636813",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2608",
+    "can": "M Kumarasamy College of Engineering (AUTONOMOUS), Thalavapalayam, Karur District 639113",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2609",
+    "can": "Mahendra Engineering College (AUTONOMOUS), Mahendhirapuri, Mallasamudram, Namakkal District 637503",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2610",
+    "can": "Muthayammal Engineering College (AUTONOMOUS), Rasipuram, Namakkal District 637408",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2611",
+    "can": "Paavai Engineering College(AUTONOMOUS), NH-7, Pachal Post, Namakkal District 637018",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2612",
+    "can": "P G P College of Engineering and Technology, Paramathi Post, Namakkal District 637207",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2613",
+    "can": "K S R College of Engineering (AUTONOMOUS), Tiruchengode, Namakkal District 637215",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2616",
+    "can": "Sapthagiri College of Engineering, Periyanahalli Post, Dharmapuri District 635205",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2618",
+    "can": "Sona College of Technology (AUTONOMOUS), Suramangalam Post, Salem District 636005",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2621",
+    "can": "Er. Perumal Manimekalai College of Engineering, Near Koneripalli, Hosur, Krishnagiri District 635117",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "2624",
+    "can": "Gnanamani College of Technology, Pachal Post, Namakkal District 637018",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "2625",
+    "can": "The Kavery Engineering College, M Kalipatti Post, Mecheri, Salem District 636 453",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2628",
+    "can": "Paavai College of Engineering, NH-7, Pachal Post, Namakkal District 637018",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2633",
+    "can": "Vidhya Vikkas College of Engineering and Technology, Varahoorampatti, Tiruchengode, Namakkal District 637 214",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2634",
+    "can": "Excel Engineering College (Autonomous), NH-544, Salem Main Road, Pallakapalayam, Sankari West Post, Komarapalayam Taluk, Namakkal District - 637303",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2706",
+    "can": "Dr. Mahalingam College of  Engineering and Technology (AUTONOMOUS), Mackinaickenpatti Post, Pollachi Taluk, Coimbatore District 642003",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2707",
+    "can": "Erode Sengunthar Engineering College (AUTONOMOUS), Thudupathi Post, Erode District 638057 ",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2708",
+    "can": "Hindusthan College of Engineering and Technology (AUTONOMOUS), Othakkalmandapam Post, Coimbatore District 641032",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2710",
+    "can": "Karpagam College of Engineering (AUTONOMOUS), Othakkalmandapam, Coimbatore District 641032",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "2711",
+    "can": "Kongu Engineering College (AUTONOMOUS), Perundurai, Erode District 638052",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2712",
+    "can": "Kumaraguru College of Technology (AUTONOMOUS), Chinnavedampatti Post, Coimbatore District 641006",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2713",
+    "can": "M P Nachimuthu M Jagannathan Engineering College, Chennimalai, Erode District 638112",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2715",
+    "can": "Nandha Engineering College (AUTONOMOUS), Pitchandampalayam Post, Erode District 638052",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2726",
+    "can": "S N S College of Technology (AUTONOMOUS), Kalappatti Post, Coimbatore District 641035",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2750",
+    "can": "KIT-Kalaignar Karunanidhi Institute of Technology (AUTONOMOUS) , Kannampalayam, Coimbatore District 641402",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2758",
+    "can": "J K K Muniraja College of Technology, T N Palayam, Gobi Taluk, Erode District 638506",
+    "Category": "NM"
+  },
+  {
+    "ccode": "3011",
+    "can": "University College of Engineering, BIT Campus, Anna University, Tiruchirappalli 620024",
+    "Category": "UNIV"
+  },
+  {
+    "ccode": "3410",
+    "can": "Krishnaswamy Collge of Engineering and Technology, S Kumarapuram, Cuddalore District 607109",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "3801",
+    "can": "A V C College of Engineering, Mannampandal Post, Mayiladuthurai, Nagappattinam District 609305",
+    "Category": "NM"
+  },
+  {
+    "ccode": "3803",
+    "can": "Anjalai Ammal-Mahalingam Engineering College, Kovilvenni, Thiruvarur District 614403",
+    "Category": "NM"
+  },
+  {
+    "ccode": "3805",
+    "can": "Dhanalakshmi Srinivasan  Engineering College (AUTONOMOUS), Thuraiyur Road, Perambalur District 621212",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "3806",
+    "can": "E G S Pillay  Engineering College (AUTONOMOUS), Nagapattinam District 611002",
+    "Category": "NM"
+  },
+  {
+    "ccode": "3808",
+    "can": "Jayaram College of Engineering and Technology , Pagalavadi Post, Tiruchirappalli District 621014",
+    "Category": "NM"
+  },
+  {
+    "ccode": "3810",
+    "can": "M A M College of Engineering, Siruganur, Tiruchirappalli District 621105",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "3814",
+    "can": "P R Engineering College, Vallam, Thanjavur District 613403",
+    "Category": "NM"
+  },
+  {
+    "ccode": "3817",
+    "can": "Roever Engineering College, Elambalur, Perambalur District 621212",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "3821",
+    "can": "A R J College of Engineering and Technology, Mannargudi Taluk, Thiruvarur District 614001",
+    "Category": "NM"
+  },
+  {
+    "ccode": "3857",
+    "can": "Meenakshi Ramaswamy Engineering College, Trichy Main Road,  Thathanur, Udayarpalayam, Ariyalur District 621804",
+    "Category": "NM"
+  },
+  {
+    "ccode": "4952",
+    "can": "C S I Institute of Technology, Thovalai, Kanyakumari District 629302",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "4955",
+    "can": "Francis Xavier Engineering College (AUTONOMOUS), Vannarpettai, Tirunelveli District 627003",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "4960",
+    "can": "Mepco Schlenk Engineering College (AUTONOMOUS), Sivakasi, Virudhunagar District 626005",
+    "Category": "NM"
+  },
+  {
+    "ccode": "4966",
+    "can": "PET Engineering College, Vallioor Post, Tirunelveli District 627117",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "4967",
+    "can": "S Veerasamy Chettiar College of  Engineering and Technology, Puliangudi Post, Tenkasi District 627855",
+    "Category": "NM"
+  },
+  {
+    "ccode": "4968",
+    "can": "Sardar Raja College of Engineering, Alangulam, Tenkasi District 627808",
+    "Category": "NM"
+  },
+  {
+    "ccode": "4971",
+    "can": "St. Xavier's Catholic College of Engineering, Chunkankadai, Nagercoil, Kanyakumari District 629003",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "4977",
+    "can": "Narayanaguru College of Engineering, Manjalumoodu, Kanyakumari District 629151",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "4978",
+    "can": "Udaya School of Engineering, Ammandivilai Post, Kanyakumari District 629204",
+    "Category": "NM"
+  },
+  {
+    "ccode": "4983",
+    "can": "Lord Jegannath College of Engineering and Technology, Kumarapuram, Thoppur Post, Kanyakumari District 629402",
+    "Category": "NM"
+  },
+  {
+    "ccode": "5008",
+    "can": "Thiagarajar College of Engineering (AUTONOMOUS), Tirupparankundram, Madurai District 625015 ",
+    "Category": "GA(AIDED)"
+  },
+  {
+    "ccode": "5902",
+    "can": "Bharath Niketan Engineering College, Thimmarasanaickanoor, Aundipatti, Theni District 625536",
+    "Category": "NM"
+  },
+  {
+    "ccode": "5904",
+    "can": "K L N College of Engineering(AUTONOMOUS), Pottapalayam, Sivagangai District 630611",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "5907",
+    "can": "Mohamed Sathak Engineering College, Kilakarai, Ramanathapuram District 623806",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "5910",
+    "can": "P S N A Colllege of Engineering and Technology, Dindigul District 624622",
+    "Category": "NM"
+  },
+  {
+    "ccode": "5913",
+    "can": "R V S College of Engineering , N Paraipatti Post, Dindigul District 624005",
+    "Category": "NM"
+  },
+  {
+    "ccode": "711K",
+    "can": "Mother Teresa Women's University, Kodaikanal 624102",
+    "Category": "UNIV"
+  },
+  {
+    "ccode": "711M",
+    "can": "Mother Teresa Women�s University Research and Extension Centre,Near Anna University Regional Centre, Keelakuilkudi\nMadurai-625 019",
+    "Category": "UNIV"
+  },
+  {
+    "ccode": "713E",
+    "can": "Bharathiar University Post Graduate Extension Centre, Erode - 638 001.",
+    "Category": "UNIV"
+  },
+  {
+    "ccode": "1",
+    "can": "University Departments of Anna University Chennai - CEG Campus, Sardar Patel Road, Guindy, Chennai 600 025",
+    "Category": "UNIV"
+  },
+  {
+    "ccode": "501",
+    "can": "A R J Institute of Management Studies, Edayarnatham, Thirumakkottai Main Road, Mannargudi, Thiruvarur District - 614 001",
+    "Category": "SA (NM)"
+  },
+  {
+    "ccode": "504",
+    "can": "Hallmark Business School (STAND ALONE), Keelasavariyarpuram, Athavathur East Village, Tiruchirappalli  District 620102",
+    "Category": "SA (NM)"
+  },
+  {
+    "ccode": "505",
+    "can": "Happy Valley Business School (STAND ALONE), Velandhavalam Road, Veerappanur, Pichanur Post, Coimbatore District 641105",
+    "Category": "SA (NM)"
+  },
+  {
+    "ccode": "510",
+    "can": "R V S Institute of Management Studies (STAND ALONE), Coimbatore District 641402",
+    "Category": "SA (NM)"
+  },
+  {
+    "ccode": "511",
+    "can": "SAN International Business School (STAND ALONE), Navakkarai Post , Coimbatore - 641 105",
+    "Category": "SA (NM)"
+  },
+  {
+    "ccode": "517",
+    "can": "Sri Venkateswara Institute of Infornation Technology and Management (STAND ALONE), Ettimalai, Coimbatore District 641 112",
+    "Category": "SA (NM)"
+  },
+  {
+    "ccode": "525",
+    "can": "K V Institute of Management and Information Studies (STAND ALONE), Sathy Main Road, Kurumbapalayam Post, Coimbatore District 641107",
+    "Category": "SA (NM)"
+  },
+  {
+    "ccode": "528",
+    "can": "R V S College of Engineering and Technology (STAND ALONE), N Paraipatti Post, Dindigul District 624005",
+    "Category": "SA (NM)"
+  },
+  {
+    "ccode": "534",
+    "can": "Karpaga Vinayaga Institute of Management (STAND ALONE), J J Nagar, Sivapuram, Pudukkottai District 622422",
+    "Category": "SA (NM)"
+  },
+  {
+    "ccode": "535",
+    "can": "Sri Ganesh School of Business Management (Stand Alone), Attur Main Road, Mettupatti, Valapady, Salem District 636111",
+    "Category": "SA (NM)"
+  },
+  {
+    "ccode": "536",
+    "can": "Gnanam School of Business (Stand Alone & Fully Residential), Marys Nagar, Sengipatti (Via), Thanjavur District 613402",
+    "Category": "SA (NM)"
+  },
+  {
+    "ccode": "546",
+    "can": "S S M School of Management & Computer Applications (STAND ALONE), Salem Main Road, Komarapalayam Post, Namakkal District 638183",
+    "Category": "SA (NM)"
+  },
+  {
+    "ccode": "676",
+    "can": "M A M B-School (STAND ALONE), Trichy-Chennai Trunk Road, Siruganoor, Tiruchirappalli District 601105.",
+    "Category": "SA (NM)"
+  },
+  {
+    "ccode": "682",
+    "can": "Sakthi Institute of Information and Management Studies (Stand Alone), Nethaji Road, Pollachi, Coimbatore District 642001",
+    "Category": "SA (NM)"
+  },
+  {
+    "ccode": "683",
+    "can": "Vijay Institute of Management (STAND ALONE), Kottaipatty Road, Kalikkampatti Village, Madurai Road, Dindigul District 624303",
+    "Category": "SA (NM)"
+  },
+  {
+    "ccode": "684",
+    "can": "PPG Business School (STAND ALONE), Rathinagiri Road, Saravanampatti, Coimbatore District 641035",
+    "Category": "SA (NM)"
+  },
+  {
+    "ccode": "687",
+    "can": "College of Business Management (Stand Alone), Sappanipatti, NH7, Karagur, Krishnagiri District 635111",
+    "Category": "SA (NM)"
+  },
+  {
+    "ccode": "688",
+    "can": "Akshaya Institute of Management Studies (STAND ALONE), Myleripalayam, Othakkalmandapam, Coimbatore District 641 032.",
+    "Category": "SA (NM)"
+  },
+  {
+    "ccode": "694",
+    "can": "OAA - MAVMM School of Management (STAND ALONE), Kidaripatti, Alagar Koil, Madurai Distrtict 625301",
+    "Category": "SA (NM)"
+  },
+  {
+    "ccode": "697",
+    "can": "Holy Angels School of Business (STAND ALONE), Siruvachur, NH-45, Trichy-Chennai Highways, Perambalur District 621113",
+    "Category": "SA (NM)"
+  },
+  {
+    "ccode": "700",
+    "can": "Vivekananda Institute of Management Studies (STAND ALONE), 143/1A2, Karuvalur Road, Kovilpalayam (Opp. Sathy Road), Coimbatore District 641107",
+    "Category": "SA (NM)"
+  },
+  {
+    "ccode": "701",
+    "can": "Madurai School of Management (STAND ALONE), NH-7, Four Lane Road, T.Vadipatti, Madurai District 625218",
+    "Category": "SA (NM)"
+  },
+  {
+    "ccode": "702",
+    "can": "Agni School of Business Excellence (ASBEX) (STAND ALONE), NH 45, Morepatti, Vadamadurai (via), Vedasandur TK, Dindigul District 624802",
+    "Category": "SA (NM)"
+  },
+  {
+    "ccode": "704",
+    "can": "Nalanda School of Business (STAND ALONE), Trichy-Madurai Highway (NH-45B), Sethurapatti (Bus Stop), Edamalaipattipudur(Via), Fathima Nagar (Post), Trichy District 620012",
+    "Category": "SA (NM)"
+  },
+  {
+    "ccode": "707",
+    "can": "AR School of Business (STAND ALONE), Madurai Road (NH-7), J. Oothupatty, Dindigul District 624206",
+    "Category": "SA (NM)"
+  },
+  {
+    "ccode": "715",
+    "can": "Bharathidasan University (Bharathidasan School of Management), Palkalaiperur, Tiruchirappalli District 620024",
+    "Category": "UNIV"
+  },
+  {
+    "ccode": "717",
+    "can": "TIPS School of Management (STAND ALONE), SF 361/1A, Karuvalur Road, MGC Palayam, S.S Kulam Post, Coimbatore 641 107 ",
+    "Category": "SA (NM)"
+  },
+  {
+    "ccode": "1120",
+    "can": "Velammal Engineering College (AUTONOMOUS), Ambattur-Redhills Road, Chennai 600066",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1121",
+    "can": "Sri Venkateswara Institute of Science and Technology, Kozhundalur, Thiruvallur District 631203",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "1122",
+    "can": "Vel Tech High Tech Dr. Rangarajan Dr. Sakunthala Engineering College, Avadi-Alamathi Road, Chennai 600 062",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "1123",
+    "can": "Gojan School of Business and Technology, 80-Feet Road, Edapalayam, Red Hills, Thiruvallur, Chennai 600052",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1126",
+    "can": "J N N Institute of Engineering, Ushaa Garden, Kannigaipair Village, Uthukottai Taluk, Thiruvallur District 601102",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "1127",
+    "can": "St. Peters College of Engineering and Technology, College Road, Avadi, Chennai 600 054",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1140",
+    "can": "Jeppiar Institute of Technology, Kunnam,sunguvarchatram, Sriperumudur-631 604",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "1149",
+    "can": "St. Josephs Institute of Technology (Autonomous), Jeppiaar Nagar, Old Mahabalipuram Road (OMR), Chennai 600119",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "1202",
+    "can": "D M I College of Engineering, Palanchoor, Nazrethpet, Chennai 602123",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "1210",
+    "can": "Panimalar Engineering College (Autonomous), Nazarethpet, Poonamallee, Chennai 602123",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "1211",
+    "can": "Rajalakshmi Engineering College (AUTONOMOUS), Thandalam, Sriperumpudur Taluk, Kancheepuram District 602105",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "1213",
+    "can": "S K R Engineering College, Poonamallee, Chennai 600123",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "1216",
+    "can": "Saveetha Engineering College (AUTONOMOUS), Thandalam, Sriperumpudur Taluk, Kancheepuram District 602105",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1217",
+    "can": "Sree Sastha Institute of Engineering and Technology, Chembarambakkam, Chennai 600123",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1221",
+    "can": "Jaya College of Engineering and Technology, Parivakkam, Poonamallee, Chennai 600056",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "1225",
+    "can": "Loyola Institute of Technology, Mevaloorkuppam, B Village, Palanchoor, Nazarethpet Post, Chennai 600123",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "1228",
+    "can": "Alpha College of Engineering, Dr. Grace George Nagar, Udayavar Koil Street, Thirumazhisai, Poonamalle, Chennai 600 124",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1229",
+    "can": "Indira Institute of Engineering and Technology, VGR Gardens, Pandur, Thiruvallur District 631203",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1230",
+    "can": "Apollo Engineering College, Mevaloorkuppam, Valarpuram Post, Sriperumpudur, Kancheepuram District 602105",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1232",
+    "can": "A R M College of Engineering and Technology, Sattamangalam, Maraimalainagar, Kancheepuram District 603209",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1235",
+    "can": "Jei Mathaajee College of Engineering,Vishaandikuppam,Karappettai (via), Siruvakkam, Kancheepuram District 631 552",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1238",
+    "can": "GRT Institute of Engineering and Technology, GRT Mahalakshmi Nagar, Chennai-Tirupathi Highway, Tiruttani Taluk, Thiruvallur District 631209",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1243",
+    "can": "Madha Institute of Engineering and Technology, Erandamkattalai Village, Sadhananthapuram, Thandalam Post, Chennai  600122",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1303",
+    "can": "Anand Institute of Higher Technology, Old Mahabalipuram Road (OMR), Kazhipattur, Kancheepuram District  603103",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1304",
+    "can": "Easwari Engineering College (AUTONOMOUS), Ramapuram, Chennai 600089",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "1306",
+    "can": "Jeppiar Engineering College, Old Mahabalipuram Road (OMR), Chennai 600119",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "1307",
+    "can": "Jerusalem College of Engineering (AUTONOMOUS) , Narayanapuram, Pallikaranai, Chennai 600 100",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1310",
+    "can": "Misrimal Navajee Munoth Jain Engineering College, Rajiv Gandhi Salai (OMR), Thorappakkam, Chennai 600097",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "1315",
+    "can": "Sri Sivasubramaniya Nadar College of Engineering (AUTONOMOUS), Kalavakkam, Old Mahabalipuram Road (OMR), Kancheepuram District 603110",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1317",
+    "can": "St. Joseph�s College of Engineering (Autonomous), Old Mahabalipuram Road (OMR), Chennai 600 119",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "1319",
+    "can": "Thangavelu Engineering College, Karappakkam, Chennai 600097",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1324",
+    "can": "Sri Sai Ram Institute of Technology (AUTONOMOUS), West Tambaram, Chennai 600044",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1325",
+    "can": "St. Joseph College of Engineering, Trinity Campus, Nemili, Sriperumpudur Taluk, Kancheepuram District 602105",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "1407",
+    "can": "G K M College of  Engineering and Technology, Alappakkam-Mappedu Road, Chennai 600063",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1408",
+    "can": "I F E T College of Engineering (AUTONOMOUS), Gangarampalayam, Villupuram District 605108",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1414",
+    "can": "Prince Shri Venkateshwaraa Padmavathy Engineering College, Ponmar, Kanchipuram, Chennai 600127",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1419",
+    "can": "Sri Sairam Enginering College (AUTONOMOUS) , West Tambaram, Chennai 600044",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1420",
+    "can": "Tagore Engineering College, Rathnamangalam, Vandalur Post, Chennai 600048",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1422",
+    "can": "SRM Valliammai Engineering College (AUTONOMOUS), Kattankulathur, Chennai 603203",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "1424",
+    "can": "Dhaanish Ahmed College of Engineering, Padappai, Chennai 601301",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "1426",
+    "can": "Sri Ramanujar Engineering College, Vandalur, Kolappakkam, Chennai 600 127",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1427",
+    "can": "Sri Krishna Engineering College, Panappakkam, Padappai, Chennai 601301",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1434",
+    "can": "Surya Group of Institutions, GST Road, Vikravandi Village, Villupuram District 605652 ",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1501",
+    "can": "Adhiparasakthi College of Engineering, Kalavai, Ranipet District 632506",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1504",
+    "can": "Arunai Engineering College, Mathur, Thiruvannamalai District 606603",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1511",
+    "can": "Ranipettai Engineering College, Thenkadappanthangal, Ranipet District 632513",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1512",
+    "can": "S K P Engineering College, Thiruvannamalai District 606611",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "1520",
+    "can": "Kingston Engineering College, Chithoor Main Road, Christianpet Village, Katpadi Taluk,  Vellore District 632059",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2025",
+    "can": "Anna University Regional Centre Coimbatore, Maruthamalai Main Road, Somayampalayam Village, Coimbatore 641047",
+    "Category": "UNIV"
+  },
+  {
+    "ccode": "2601PT",
+    "can": "Adhiyamaan College of Engineering (AUTONOMOUS), Hosur, Krishnagiri District 635109",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2602",
+    "can": "Annai Mathammal Sheela Enginereing College, Erumapatty Post, Namakkal District 637013",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2607",
+    "can": "K S Rangasamy College of Technology (AUTONOMOUS), Tiruchengode, Namakkal District 637215",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2614",
+    "can": "S S M College of Engineering, Komarapalayam, Namakkal District 638183",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2616PT",
+    "can": "Sapthagiri College of Engineering, Periyanahalli Post, Dharmapuri District 635205",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2617",
+    "can": "Sengunthar Engineering College (AUTONOMOUS), Tiruchengode, Namakkal District 637205",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2627",
+    "can": "Selvam College of Technology, Pappanaickenpatti Post, Namakkal District 637003",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2630",
+    "can": "Chettinad College of Engineering and Technology, NH-67, Trichy Main Road, Puliyur C F, Karur District 639114",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2634IEVD",
+    "can": "Excel Engineering College (Autonomous), NH-544, Salem Main Road, Pallakapalayam, Sankari West Post, Komarapalayam Taluk, Namakkal District - 637303",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2636",
+    "can": "A V S Engineering College, Military Road, Ammapet, Salem District 636003",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2640",
+    "can": "Jayalakshmi Institute of Technology, Thoppur, Dharmapuri District 636 352",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2642",
+    "can": "P S V College of Engineeering and Technology, Mittapalli, Balinayanapalli Post, Elathagiri, Krishnagiri District 635108",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2646",
+    "can": "Tagore Institute of Engineering and Technology, Deviyakurichi, Attur Taluk, Salem District 636112",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2647",
+    "can": "J K K Nataraja College of Engineering and Technology, Komarapalayam Amani, Thattankuttai Panchayat, Namakkal District 638183",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2651",
+    "can": "Jai Shriram Engineering College, Dharapuram Road, Avinashi Palayam, Tiruppur District 638660",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2653",
+    "can": "Knowledge Institute of Technology, KIOT Campus, Kakapalayam Post, Salem District 637504",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2656",
+    "can": "Builders Engineering College, Nathakadaiyur, Palayakottai Village, Kangeyam, Tiruppur District 638108",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2658",
+    "can": "V S A Group of Institutions, NH-47, Uthamasola Puram Post, Salem District 636010",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2702",
+    "can": "Bannari Amman Institute of Technology (AUTONOMOUS), Sathyamanagalam, Erode District  638401",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2704",
+    "can": "Coimbatore Institute of Engineering and Technolgoy (AUTONOMOUS) , Narasipuram Post, Coimbatore District 641109",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2712IEVD",
+    "can": "Kumaraguru College of Technology (AUTONOMOUS), Chinnavedampatti Post, Coimbatore District 641006",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2712PM",
+    "can": "Kumaraguru College of Technology (AUTONOMOUS), Chinnavedampatti Post, Coimbatore District 641006",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2716",
+    "can": "Park College of Engineering and Technology, Kaniyur, Coimbatore District 641659",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2717",
+    "can": "Sasurie College of Engineering, Vijayamangalam, Tiruppur District 638056",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2718",
+    "can": "Sri Krishna College of Enginering and Technology (AUTONOMOUS), Kuniamuthur, Coimbatore District 641008",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2719",
+    "can": "Sri Ramakrishna Engineering College (AUTONOMOUS), Vattamalaipalayam, Coimbatore District 641022",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2721",
+    "can": "Tamilnadu College of Engineering, Karumathampatti Post, Coimbatore District 641659",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2722",
+    "can": "Sri Krishna College of Technology (AUTONOMOUS),Kovaipudur, coimbatore district 641042",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2723",
+    "can": "Velalar College of Engineering and Technology (AUTONOMOUS), Thindal Post, Erode District 638 012",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2729",
+    "can": "Nehru Institute of Engineering and Technology, Thirumalayampalayam Post, Coimbatore District 641105",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2732",
+    "can": "INFO Institute of Engineering, Sarkar Samakulam, Coimbatore District 641107",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2734",
+    "can": "S N S College of Engineering (AUTONOMOUS) , Sathy Main Road, Kurumbapalayam Post, Coimbatore District 641107",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2736",
+    "can": "Dr. N G P Institute of Technology, Kalapatti Road, Coimbatore District 641048",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2740",
+    "can": "Hindusthan Institute of Technology (AUTONOMOUS) , Othakkalmandapam, Coimbatore District 641032",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2743",
+    "can": "Dhanalakshmi Srinivasan College of Engineering (CBE), NH47, Palakkad Main Road, Navakkarai Post, Near Nandhi Temple, Coimbatore District 641105",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "2744",
+    "can": "Adithya Institute of Technology\nCoimbatore - 641107",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2745",
+    "can": "Kathir College of Engineering, Neelambur, Avinashi Road, Coimbatore District 641062",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2747",
+    "can": "Shree Venkateshwara Hi-Tech Engineering College, Othakuthirai, K Mettupalayam Post, Gobichettipalayam, Erode District 638455",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2748",
+    "can": "Surya Engineering College, Mettukadai, Kathirampatti Post, Erode District 638107",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2749",
+    "can": "EASA College of Engineering and Technology, NH-47, Coimbatore-Palakkad Main Road, Navakarai Post, Coimbatore District 641105",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2751",
+    "can": "KGISL Institute of Technology, KGISL Campus,Saravanampatti,Coimbatore- 641 035",
+    "Category": "NM"
+  },
+  {
+    "ccode": "2755",
+    "can": "Nehru Institute of Technology, Thirumalayampalayam Post, Coimbatore District 641105",
+    "Category": "NM"
+  },
+  {
+    "ccode": "3425",
+    "can": "C K College of Engineering and Technology, Chellangkuppam, Cuddalore District 607003",
+    "Category": "NM"
+  },
+  {
+    "ccode": "3782",
+    "can": "OASYS Institute of Technology, Pulivalam Village, Musiri Taluk, Tiruchirappalli District 621006",
+    "Category": "NM"
+  },
+  {
+    "ccode": "3807",
+    "can": "J J College of Engineering and Technology, Poolankulathupatti Post, Thiruchirappalli District 620009",
+    "Category": "NM"
+  },
+  {
+    "ccode": "3809",
+    "can": "Kurinji College of Engineering and Technology, Manapparai, Tiruchirappalli District 621307",
+    "Category": "NM"
+  },
+  {
+    "ccode": "3811",
+    "can": "M I E T Engineering College, Trichy-Pudukkottai Road, Tiruchirappalli District 620007",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "3813",
+    "can": "Oxford Engineering College, Pirattiyur(W), Tiruchirappalli District 620009",
+    "Category": "NM"
+  },
+  {
+    "ccode": "3815",
+    "can": "Pavendar Bharathidasan College of Engineering and Technology, Pudukkottai Main Road, Tiruchirappalli District 622515",
+    "Category": "NM"
+  },
+  {
+    "ccode": "3819",
+    "can": "Saranathan College of  Engineering, Panjappur, Tiruchirappalli District  620012",
+    "Category": "NM"
+  },
+  {
+    "ccode": "3825",
+    "can": "St. Josephs College of Engineering and Technology, Elupatti Village, Rawaspatti Post, Thanjavur District 613403",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "3829",
+    "can": "M A M College of Engineering and Technology, Trichy-Chennai Trunk Road, Siruganur, Tiruchirappalli District 621105",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "3830",
+    "can": "K Ramakrishnan College of Engineering (AUTONOMOUS) , Kariyamanickam Road, Samayapuram, Manachanallur Taluk, Tiruchirappalli District 621112",
+    "Category": "NM"
+  },
+  {
+    "ccode": "3831",
+    "can": "Indra Ganesan College of Engineering, Madurai Main Road, Manikandam, Tiruchirappalli District 620012",
+    "Category": "NM"
+  },
+  {
+    "ccode": "3841",
+    "can": "CARE College of Engineering, Thayanoor Village, Thayanoor Village, Kuttappatti, Srirangam Taluk, Tiruchirappalli District 620009",
+    "Category": "NM"
+  },
+  {
+    "ccode": "4020",
+    "can": "Anna University Regional Centre Tirunelveli, NGO Colony, Palayamkottai, Tirunelveli District 627005",
+    "Category": "UNIV"
+  },
+  {
+    "ccode": "4670",
+    "can": "Rohini College of Engineering & Technology, Anjugramam-Kanyakumari Main Road, Palkulam, Variyoor Post, Kanyakumari District 629401",
+    "Category": "NM"
+  },
+  {
+    "ccode": "4927",
+    "can": "Maria College of Engineering and Technology, Attoor Puliyamoodu Junction, Thiruvattar Post, Kanyakumari District 629177",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "4928",
+    "can": "MAR Ephraem College of Engineering & Technology, Malankara Hills, Elavuvillai, Marthandam, Kanyakumari District 629171",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "4931",
+    "can": "Grace College of Engineering, Chandy Nagar, Mullakkadu, Thoothukudi District 628005",
+    "Category": "NM"
+  },
+  {
+    "ccode": "4943",
+    "can": "Satyam College of Engineering and Technology,Satyam Nagar,Aralvoimozhi,Kanyakumari-629301",
+    "Category": "NM"
+  },
+  {
+    "ccode": "4944",
+    "can": "Arunachala College  of Engineering for Women,Manavilai,vellichanthai,Nagarcoil, Kanayakumari-629 203",
+    "Category": "NM"
+  },
+  {
+    "ccode": "4954",
+    "can": "Dr. Sivanthi Aditanar College of Engineering, Tiruchendur, Thoothukudi District 628215",
+    "Category": "NM"
+  },
+  {
+    "ccode": "4964",
+    "can": "P S N College of Engineering and Technology (AUTONOMOUS), Melathediyoor, Tirunelveli Dstrict 627152",
+    "Category": "NM"
+  },
+  {
+    "ccode": "4965",
+    "can": "P S R  Engineering College (AUTONOMOUS), Appayanaickenpatti, Sevalpatti, Virudhunagar District 626140",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "4969",
+    "can": "SCAD College of Engineering and Technology, Cheranmahadevi, Tirunelveli District 627414",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "4972",
+    "can": "Amrita College of Engineering and Technology, Erachakulam Post, Kanyakumari District 629902",
+    "Category": "NM"
+  },
+  {
+    "ccode": "4976",
+    "can": "Infant Jesus College of Engineering, Thoothukudi Highway (NH7/A), Thoothukudi District 628851",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "4980",
+    "can": "Einstein College of Engineering, Seethaparpanallur, Tirunelveli District 627012",
+    "Category": "NM"
+  },
+  {
+    "ccode": "4981",
+    "can": "Ponjesly College of  Engineering, Vettornimadam Post, Nagercoil, Kanyakumari District 629003",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "4982",
+    "can": "Vins Christian College of Engineering, Chunkankadai Post, Nagercoil, Kanyakumari District  629 003",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "4989",
+    "can": "P S N Engineering College, Melathediyoor, Tirunelveli District 627152",
+    "Category": "NM"
+  },
+  {
+    "ccode": "4993",
+    "can": "Loyola Institute of Technology and Science, Loyola Nagar,  P B No.2, Thovalai, Kanyakumari District 629302",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "4996",
+    "can": "Sri Vidhya College of Engineering and Technology, Sivakasi Main Road, P Kumaralinapuram, Virudhunagar District 626005",
+    "Category": "NM"
+  },
+  {
+    "ccode": "5010",
+    "can": "Anna University Regional Centre Madurai, Alagarkovil Road, Madurai 625 002",
+    "Category": "UNIV"
+  },
+  {
+    "ccode": "5533",
+    "can": "Karaikudi Institute of Technology and Karaikudi Institute of Management, KIT & KIM Technical Campus, Keeranipatti, Thalakkuvur, Karaikudi, Sivagangai District 630307",
+    "Category": "NM"
+  },
+  {
+    "ccode": "5832",
+    "can": "N P R College of Engineering and Technology, Natham, Dindigul District 624401",
+    "Category": "NM"
+  },
+  {
+    "ccode": "5914",
+    "can": "Solamalai College of Engineering, Veerapanjan, Madurai District 625020",
+    "Category": "NM"
+  },
+  {
+    "ccode": "5919",
+    "can": "St. Michael College of Engineering and Technology, Kalayarkoil, Sivagangai District 630551",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "5921",
+    "can": "Syed Ammal Engineering College, Achuthan Vayal Post, Ramanathapuram District 623502",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "5924",
+    "can": "Ganapathy Chettiar College of Engineering and Technology, Melakavanur Post, Paramakudi, Ramanathapuram District 623706",
+    "Category": "NM"
+  },
+  {
+    "ccode": "1503PT",
+    "can": "Arulmigu  Meenakshi Amman College of Engineering, Vadamavandal,Thiruvannamalai District 604410",
+    "Category": "MIN"
+  },
+  {
+    "ccode": "1PTSS",
+    "can": "University Departments of Anna University Chennai - CEG Campus, Sardar Patel Road, Guindy, Chennai 600 025",
+    "Category": "UNIV"
+  },
+  {
+    "ccode": "1TMSS",
+    "can": "University Departments of Anna University Chennai - CEG Campus, Sardar Patel Road, Guindy, Chennai 600 025",
+    "Category": "UNIV"
+  },
+  {
+    "ccode": "2006WM",
+    "can": "PSG College of Technology (AUTONOMOUS), Peelamedu, Coimbatore District 641004",
+    "Category": "GA(SS)"
+  },
+  {
+    "ccode": "5BA",
+    "can": "Annamalai University Faculty of Engineering and Technology,Annamalai nagar,Cuddalore 608002",
+    "Category": "UNIV"
+  },
+  {
+    "ccode": "5DS",
+    "can": "Annamalai University Faculty of Engineering and Technology,Annamalai nagar,Cuddalore 608002",
+    "Category": "UNIV"
+  },
+  {
+    "ccode": "5FM",
+    "can": "Annamalai University Faculty of Engineering and Technology,Annamalai nagar,Cuddalore 608002",
+    "Category": "UNIV"
+  },
+  {
+    "ccode": "5HRM",
+    "can": "Annamalai University Faculty of Engineering and Technology,Annamalai nagar,Cuddalore 608002",
+    "Category": "UNIV"
+  },
+  {
+    "ccode": "5IBM",
+    "can": "Annamalai University Faculty of Engineering and Technology,Annamalai nagar,Cuddalore 608002",
+    "Category": "UNIV"
+  },
+  {
+    "ccode": "5IM",
+    "can": "Annamalai University Faculty of Engineering and Technology,Annamalai nagar,Cuddalore 608002",
+    "Category": "UNIV"
+  },
+  {
+    "ccode": "5MM",
+    "can": "Annamalai University Faculty of Engineering and Technology,Annamalai nagar,Cuddalore 608002",
+    "Category": "UNIV"
+  },
+  {
+    "ccode": "710SS",
+    "can": "University of Madras, Chepauk, Chennai 600005",
+    "Category": "UNIV"
+  },
+  {
+    "ccode": "711C",
+    "can": "Mother Teresa Women's University Research and Extension Centre, Teachers Training College Campus, Saidapet, Chennai 600015",
+    "Category": "UNIV"
+  },
+  {
+    "ccode": "713C",
+    "can": "Bharathiar University, Maruthamalai Main Road, Somayampalayam Village, Coimbatore 641046",
+    "Category": "UNIV"
+  },
+  {
+    "ccode": "4023",
+    "can": "University College of Engineering, Nagercoil, Nagercoil Industrial Estate, Konam, Kanyakumari District 629004",
+    "Category": "UNIV"
+  }
+ ]

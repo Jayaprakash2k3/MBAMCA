@@ -7,26 +7,32 @@ import { backendURL } from "../../backendurl";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Select from "react-select";
-import { CourseList, SSCourse } from "./CourseList";
+import { CourseList } from "./CourseList";
 
-const GOVTSeats = {
-  "CENTRAL GOVT": 0.5,
-  CHRISTIAN: 0.5,
-  GOVT: 1,
-  "GOVT AIDED": 1,
-  HINDI: 0.5,
-  JAIN: 0.5,
-  MALAYALAM: 0.5,
-  "MALAYALAM LINGUISTIC": 0.5,
-  MIN: 0.5,
-  MUSLIM: 0.5,
-  NM: 0.65,
-  SOWRASHTRA: 0.5,
-  TELUGU: 0.5,
-  UNIV: 1,
-  IRTT: 0.65,
-  SS: 0.7,
-};
+const MCASeats={
+"GOVT":1,
+"GA(AIDED)":0.9,
+"GA(SS)":0.5,
+"UNIV":1,
+"MIN":0.3,
+"SA (NM)":0.5,
+"NM":0.5,
+}
+const MBASeats={
+  "GOVT":1,
+  "GA(AIDED)":0.9,
+  "GA(SS)":0.5,
+  "UNIV":1,
+  "MIN":0.3,
+  "SA (NM)":0.5,
+  "NM":0.5,
+
+// "GA(SS)":0.5,
+// "NM":0.5,
+// "SA (NM)":0.5,
+// "MIN":0.3,
+// "UNIV":1,
+}
 
 const AccredationOptions = [
   { value: "ACC", label: "Accredited", disabled: true },
@@ -82,7 +88,7 @@ const FormTwo = ({ alter, toggleIconTab, Data, setParentCourse, updateCollegeInf
           };
           updateCollegeInfo();
           notify();
-          toggleIconTab("verify");
+          toggleIconTab("7");
         }
       })
       .catch((error) => {
@@ -172,17 +178,18 @@ const FormTwo = ({ alter, toggleIconTab, Data, setParentCourse, updateCollegeInf
     let data = [...Course];
     data[index]["intake"] = Math.floor(intake);
     data[index]["Surrender"] = 0;
-    //SSCourse
-    if (data[index]["courseName"].label.includes("(SS)")) {
-      data[index]["Govt"] = Math.floor(intake * 0.7);
-      data[index]["Quota"] = 0.7;
-      data[index]["Pending"] = (intake * 0.7) % 1;
+    //MBACourse
+    if (data[index]["courseName"].label.includes("MBA")) {
+      console.log(data[index]["courseName"],MBASeats[clgCAT],clgCAT);
+      data[index]["Govt"] = Math.floor(intake * MBASeats[clgCAT]);
+      data[index]["Quota"] = MBASeats[clgCAT];
+      data[index]["Pending"] = (intake * MBASeats[clgCAT]) % 1;
     }
-    //NormalCourse
+    //MCACourse
     else {
-      data[index]["Govt"] = Math.floor(intake * GOVTSeats[clgCAT]);
-      data[index]["Quota"] = GOVTSeats[clgCAT];
-      data[index]["Pending"] = (intake * GOVTSeats[clgCAT]) % 1;
+      data[index]["Govt"] = Math.floor(intake * MCASeats[clgCAT]);
+      data[index]["Quota"] = MCASeats[clgCAT];
+      data[index]["Pending"] = (intake * MCASeats[clgCAT]) % 1;
     }
     data[index]["Management"] = intake - data[index]["Govt"];
     data[index]["SWS"] = data[index]["Govt"];
@@ -422,7 +429,7 @@ const FormTwo = ({ alter, toggleIconTab, Data, setParentCourse, updateCollegeInf
           <Button
             type="submit"
             onClick={() => {
-              toggleIconTab("10");
+              toggleIconTab("5");
             }}
             className="text-center m-4"
             color="danger"
@@ -434,7 +441,7 @@ const FormTwo = ({ alter, toggleIconTab, Data, setParentCourse, updateCollegeInf
               type="submit"
               onClick={() => {
                 setParentCourse(Course);
-                toggleIconTab("verify");
+                toggleIconTab("7");
               }}
               className="text-center m-4"
               color="success"
@@ -458,7 +465,7 @@ const FormTwo = ({ alter, toggleIconTab, Data, setParentCourse, updateCollegeInf
             <Button
               type="submit"
               onClick={() => {
-                toggleIconTab("verify");
+                toggleIconTab("7");
               }}
               className="text-center m-4"
               color="success"

@@ -111,7 +111,7 @@ const FormThree = ({ alter, toggleIconTab, Data, updateCollegeInfo }) => {
         <Button
           type="submit"
           onClick={() => {
-            toggleIconTab("verify");
+            toggleIconTab("6");
           }}
           className="text-center m-4"
           color="danger"

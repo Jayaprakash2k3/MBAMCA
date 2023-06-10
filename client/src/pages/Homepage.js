@@ -27,7 +27,7 @@ const Homepage = ({ ...props }) => {
   const [personalFlag, setpersonalFlag] = useState(false);
   const [courseFlag, setcourseFlag] = useState(false);
   const [declarationFlag, setdeclarationFlag] = useState(false);
-  const [bankDetailFlag, setbankDetailFlag] = useState(false);
+  // const [bankDetailFlag, setbankDetailFlag] = useState(false);
   const [docFlag, setdocFlag] = useState(false);
   const [data, setData] = useState();
   const [Course, setCourse] = useState([]);
@@ -54,7 +54,7 @@ const Homepage = ({ ...props }) => {
         setdocFlag(data?.DocumentUploadFlag == true ? true : false);
         setLoading(false);
         setphase1Freeze(data?.Phase1Freeze == true ? true : false);
-        setbankDetailFlag(data?.BankDetailFlag == true ? true : false);
+        // setbankDetailFlag(data?.BankDetailFlag == true ? true : false);
       })
       .catch((error) => {
         console.log(error);
@@ -106,30 +106,9 @@ const Homepage = ({ ...props }) => {
                 <NavLink
                   tag="a"
                   href="#tab"
-                  style={{
-                    color: personalFlag == true ? "#526484" : "lightgray",
-                    cursor: personalFlag == true ? "pointer" : "not-allowed",
-                  }}
-                  className={classnames({ active: activeIconTab === "10" })}
-                  onClick={(ev) => {
-                    if (personalFlag) {
-                      ev.preventDefault();
-                      toggleIconTab("10");
-                    } else {
-                      return;
-                    }
-                  }}
-                >
-                  <Icon name="user-fill" /> <span>Bank Details</span>
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink
-                  tag="a"
-                  href="#tab"
                   className={classnames({ active: activeIconTab === "6" })}
                   onClick={(ev) => {
-                    if (personalFlag && bankDetailFlag) {
+                    if (personalFlag) {
                       ev.preventDefault();
                       toggleIconTab("6");
                     } else {
@@ -137,55 +116,34 @@ const Homepage = ({ ...props }) => {
                     }
                   }}
                   style={{
-                    color: personalFlag == true && bankDetailFlag == true ? "#526484" : "lightgray",
-                    cursor: personalFlag && bankDetailFlag == true ? "pointer" : "not-allowed",
+                    color: personalFlag == true ? "#526484" : "lightgray",
+                    cursor: personalFlag== true ? "pointer" : "not-allowed",
                   }}
                 >
                   <Icon name="book-fill" /> <span>Course Details</span>
                 </NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink
-                  tag="a"
-                  href="#tab"
-                  style={{
-                    color: personalFlag == true && courseFlag && bankDetailFlag == true ? "#526484" : "lightgray",
-                    cursor: personalFlag && courseFlag && bankDetailFlag == true ? "pointer" : "not-allowed",
-                  }}
-                  className={classnames({ active: activeIconTab === "verify" })}
-                  onClick={(ev) => {
-                    if (personalFlag && courseFlag && bankDetailFlag) {
-                      ev.preventDefault();
-                      toggleIconTab("verify");
-                    } else {
-                      return;
-                    }
-                  }}
-                >
-                  <Icon name="reload-alt" /> <span>Verify</span>
-                </NavLink>
-              </NavItem>
+      
 
               <NavItem>
                 <NavLink
                   tag="a"
                   href="#tab"
                   style={{
-                    // color: personalFlag == true && courseFlag == true && declarationFlag ? "#526484" : "lightgray",
-                    // cursor: personalFlag && courseFlag == true && declarationFlag ? "pointer" : "not-allowed",
-                    color: "lightgray",
-                    cursor: "not-allowed",
+                    color: personalFlag == true && courseFlag == true ? "#526484" : "lightgray",
+                    cursor: personalFlag && courseFlag == true ? "pointer" : "not-allowed",
+                   
                   }}
                   className={classnames({ active: activeIconTab === "7" })}
-                  // onClick={(ev) => {
-                  //   if (personalFlag && courseFlag) {
-                  //     ev.preventDefault();
-                  //     // getCollegeInfo();
-                  //   } else {
-                  //     toggleIconTab("7");
-                  //     return;
-                  //   }
-                  // }}
+                  onClick={(ev) => {
+                    if (personalFlag && courseFlag) {
+                      ev.preventDefault();
+                      // getCollegeInfo();
+                    } else {
+                      toggleIconTab("7");
+                      return;
+                    }
+                  }}
                 >
                   <Icon name="check-fill-c" /> <span>Declaration</span>
                 </NavLink>
@@ -196,20 +154,19 @@ const Homepage = ({ ...props }) => {
                   tag="a"
                   href="#tab"
                   style={{
-                    // color: personalFlag == true && courseFlag == true && declarationFlag ? "#526484" : "lightgray",
-                    // cursor: personalFlag && courseFlag == true && declarationFlag ? "pointer" : "not-allowed",
-                    color: "lightgray",
-                    cursor: "not-allowed",
+                    color: personalFlag == true && courseFlag == true && declarationFlag ? "#526484" : "lightgray",
+                    cursor: personalFlag && courseFlag == true && declarationFlag ? "pointer" : "not-allowed",
+                   
                   }}
                   className={classnames({ active: activeIconTab === "8" })}
-                  // onClick={(ev) => {
-                  //   if (personalFlag && courseFlag && declarationFlag) {
-                  //     ev.preventDefault();
-                  //   } else {
-                  //     toggleIconTab("8");
-                  //     return;
-                  //   }
-                  // }}
+                  onClick={(ev) => {
+                    if (personalFlag && courseFlag && declarationFlag) {
+                      ev.preventDefault();
+                    } else {
+                      toggleIconTab("8");
+                      return;
+                    }
+                  }}
                 >
                   <Icon name="upload" /> <span>Document Upload</span>
                 </NavLink>
@@ -229,20 +186,7 @@ const Homepage = ({ ...props }) => {
                   />
                 )}
               </TabPane>
-              <TabPane tabId="10">
-                {loading ? (
-                  spinner
-                ) : (
-                  <BankDetails
-                    toggleIconTab={toggleIconTab}
-                    setParentCourse={setCourse}
-                    updateCollegeInfo={getCollegeInfo}
-                    Data={data}
-                    phase1Freeze={phase1Freeze}
-                    alter
-                  />
-                )}
-              </TabPane>
+        
               <TabPane tabId="6">
                 {loading ? (
                   spinner
@@ -257,22 +201,7 @@ const Homepage = ({ ...props }) => {
                   />
                 )}
               </TabPane>
-              <TabPane tabId="verify">
-                {loading ? (
-                  spinner
-                ) : (
-                  <Verify
-                    activeIconTab={activeIconTab}
-                    toggleIconTab={toggleIconTab}
-                    updateCollegeInfo={getCollegeInfo}
-                    Data={Course}
-                    Category={data?.Category}
-                    ccode={data?.ccode}
-                    phase1Freeze={phase1Freeze}
-                    alter
-                  />
-                )}
-              </TabPane>
+           
               <TabPane tabId="7">
                 {loading ? (
                   spinner

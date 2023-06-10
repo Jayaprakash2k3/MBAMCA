@@ -402,7 +402,7 @@ const FormOne = ({ alter, toggleIconTab, updateCollegeInfo, Data }) => {
           {personalDetailFlag && (
             <Button
               onClick={() => {
-                toggleIconTab("10");
+                toggleIconTab("6");
               }}
               type="submit"
               color="success"

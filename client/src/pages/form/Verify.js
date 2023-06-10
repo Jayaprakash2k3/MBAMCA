@@ -53,24 +53,6 @@ const Verify = ({ alter, activeIconTab, toggleIconTab, Data, updateCollegeInfo, 
         console.log(error);
       });
   };
-  const GOVTSeats = {
-    "CENTRAL GOVT": 0.5,
-    CHRISTIAN: 0.5,
-    GOVT: 1,
-    "GOVT AIDED": 0.7,
-    HINDI: 0.5,
-    JAIN: 0.5,
-    MALAYALAM: 0.5,
-    "MALAYALAM LINGUISTIC": 0.5,
-    MIN: 0.5,
-    MUSLIM: 0.5,
-    NM: 0.65,
-    SOWRASHTRA: 0.5,
-    TELUGU: 0.5,
-    UNIV: 0.7,
-    IRTT: 0.65,
-    SS: 0.7,
-  };
 
   const getCollegeInfo = () => {
     var ec = [];
