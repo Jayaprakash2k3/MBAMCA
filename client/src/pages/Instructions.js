@@ -32,32 +32,32 @@ const Instructions = () => {
           <PreviewCard>
             <List>
               <ListGroup>
-                <ListGroupItemHeading>Seat Matrix Form containes 6 sections in total</ListGroupItemHeading>
+                <ListGroupItemHeading> PG-MBC/MBA Seat Matrix Form containes 4 sections in total.</ListGroupItemHeading>
                 <ListGroupItemText>
                   {" "}
-                  <b>Personal Details :</b> To enter basic details of college
-                </ListGroupItemText>
-                <ListGroupItemText>
-                  <b>Bank Details :</b> To enter the bank account information
+                  <b>Personal Details :</b> To enter basic details of college.
                 </ListGroupItemText>
                 <ListGroupItemText>
                   <b> Course Details :</b>
-                  To enter offered courses by the college and total number of seats
-                </ListGroupItemText>
-                <ListGroupItemText>
-                  <b>Verify Details : </b> To verify the seat distribution
+                  To enter offered courses by the college and total number of seats.
                 </ListGroupItemText>
                 <ListGroupItemText>
                   <b>Declaration section: </b>
                   This section lets you download the pdf of the list of courses you entered in previous section, to be
-                  signed by principal of the college and uploaded in next section
+                  signed by principal of the college and uploaded in next section.
                 </ListGroupItemText>
                 <ListGroupItemText>
                   <b>Document Upload section: </b>
-                  This section is to upload all the applicable document to the college in pdf form
+                  This section is to upload all the applicable document to the college in pdf form.
+                </ListGroupItemText>
+                <ListGroupItemText>
+                  If any issue presists in data updating please try to refresh once to view the latest changes.
+                </ListGroupItemText>
+                <ListGroupItemText>
+                  For any issues please contact the TNEA Seatmatrix tech team through the below stated contact details.
                 </ListGroupItemText>
               </ListGroup>
-              <ListGroup>
+              {/* <ListGroup>
                 <ListGroupItemHeading>Phase distribution</ListGroupItemHeading>
                 <ListGroupItemText>
                   <b>Phase1 (Current): </b>
@@ -73,7 +73,7 @@ const Instructions = () => {
                 <ListGroupItemText>
                   For any issues please contact the TNEA Seatmatrix tech team through the below stated contact details
                 </ListGroupItemText>
-              </ListGroup>
+              </ListGroup> */}
             </List>
           </PreviewCard>
         </Block>

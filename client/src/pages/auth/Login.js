@@ -97,7 +97,7 @@ const Login = () => {
               <BlockContent>
                 <BlockTitle tag="h4">Sign-In</BlockTitle>
                 <BlockDes>
-                  <p>Access Seat Matrix Allocation using your email and passcode.</p>
+                  <p>Access PG-MBC/MBA Seat Matrix Allocation using your email and passcode.</p>
                 </BlockDes>
               </BlockContent>
             </BlockHead>
