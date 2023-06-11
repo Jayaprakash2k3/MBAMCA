@@ -77,13 +77,13 @@ const Homepage = ({ ...props }) => {
         <Block>
           <BlockHead>
             <BlockHeadContent>
-              <BlockTitle tag="h5">Seat Matrix Form</BlockTitle>
+              <BlockTitle tag="h5">PG-MBC/MBA Seat Matrix Form</BlockTitle>
               <p>
                 <a href="/Instructions">Click here to view instructions or click General Instructions in left panel</a>
               </p>
-              <p style={{ color: "red" }}>
+              {/* <p style={{ color: "red" }}>
                 *Declaration and Documents Upload section are part of Phase 2 and will be enabled after June 15th.
-              </p>
+              </p> */}
               {/* <p>Please fill the form within the due date</p> */}
             </BlockHeadContent>
           </BlockHead>
@@ -117,13 +117,12 @@ const Homepage = ({ ...props }) => {
                   }}
                   style={{
                     color: personalFlag == true ? "#526484" : "lightgray",
-                    cursor: personalFlag== true ? "pointer" : "not-allowed",
+                    cursor: personalFlag == true ? "pointer" : "not-allowed",
                   }}
                 >
                   <Icon name="book-fill" /> <span>Course Details</span>
                 </NavLink>
               </NavItem>
-      
 
               <NavItem>
                 <NavLink
@@ -132,15 +131,14 @@ const Homepage = ({ ...props }) => {
                   style={{
                     color: personalFlag == true && courseFlag == true ? "#526484" : "lightgray",
                     cursor: personalFlag && courseFlag == true ? "pointer" : "not-allowed",
-                   
                   }}
                   className={classnames({ active: activeIconTab === "7" })}
                   onClick={(ev) => {
                     if (personalFlag && courseFlag) {
                       ev.preventDefault();
                       // getCollegeInfo();
-                    } else {
                       toggleIconTab("7");
+                    } else {
                       return;
                     }
                   }}
@@ -156,14 +154,13 @@ const Homepage = ({ ...props }) => {
                   style={{
                     color: personalFlag == true && courseFlag == true && declarationFlag ? "#526484" : "lightgray",
                     cursor: personalFlag && courseFlag == true && declarationFlag ? "pointer" : "not-allowed",
-                   
                   }}
                   className={classnames({ active: activeIconTab === "8" })}
                   onClick={(ev) => {
                     if (personalFlag && courseFlag && declarationFlag) {
                       ev.preventDefault();
-                    } else {
                       toggleIconTab("8");
+                    } else {
                       return;
                     }
                   }}
@@ -186,7 +183,7 @@ const Homepage = ({ ...props }) => {
                   />
                 )}
               </TabPane>
-        
+
               <TabPane tabId="6">
                 {loading ? (
                   spinner
@@ -201,7 +198,7 @@ const Homepage = ({ ...props }) => {
                   />
                 )}
               </TabPane>
-           
+
               <TabPane tabId="7">
                 {loading ? (
                   spinner
