@@ -84,7 +84,7 @@ const FormThree = ({ alter, toggleIconTab, Data, updateCollegeInfo }) => {
         id="flexCheckChecked"
       ></input>
       <p>
-        We, declare that we have thoroughly reviewed and verified all seat allocation matrix for TNEA. We have ensured
+        We, declare that we have thoroughly reviewed and verified all seat allocation matrix for PG-MBA/MCA Admission. We have ensured
         that all seats have been allocated appropriately and that no further changes will be made to the allocation
         matrix without proper authorization from the relevant authorities. We take full responsibility for any errors or
         omissions that may have occurred during the verification process and certify that all changes made to the matrix
