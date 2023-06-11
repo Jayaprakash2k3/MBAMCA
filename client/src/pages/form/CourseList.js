@@ -1,4 +1,5 @@
 export const CourseList = [
+{ value: 'MCA', label: 'MCA '},
 { value: 'MBA ', label: 'MBA '},
 { value: 'MBAFM ', label: 'MBA (Financial Mgt) '},
 { value: 'MBAHRM ', label: 'MBA (Human Resource Mgt) '},
@@ -11,7 +12,6 @@ export const CourseList = [
 { value: 'MBAIED ', label: 'MBA (Innovation, Entreprenuership and Venture Development) '},
 { value: 'MBAPM ', label: 'MBA (Project Management) '},
 { value: 'MBAIB ', label: 'MBA (INTERNATIONAL BUSINESS) '},
-{ value: 'MCA', label: 'MCA '},
 {label:"MBA (APAREL MANAGEMENT)",value:"MBAAM"},
 {label:"MBA (RETAIL MANAGEMENT)",value:"MBARM"},
 {label:"MBA (TEXTILE MANAGEMENT)",value:"MBATM"},

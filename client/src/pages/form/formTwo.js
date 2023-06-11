@@ -181,13 +181,13 @@ const FormTwo = ({ alter, toggleIconTab, Data, setParentCourse, updateCollegeInf
     //MBACourse
     if (data[index]["courseName"].label.includes("MBA")) {
       console.log(data[index]["courseName"], MBASeats[clgCAT], clgCAT);
-      data[index]["Govt"] = Math.floor(intake * MBASeats[clgCAT]);
+      data[index]["Govt"] = Math.round(intake * MBASeats[clgCAT]);
       data[index]["Quota"] = MBASeats[clgCAT];
       data[index]["Pending"] = (intake * MBASeats[clgCAT]) % 1;
     }
     //MCACourse
     else {
-      data[index]["Govt"] = Math.floor(intake * MCASeats[clgCAT]);
+      data[index]["Govt"] = Math.round(intake * MCASeats[clgCAT]);
       data[index]["Quota"] = MCASeats[clgCAT];
       data[index]["Pending"] = (intake * MCASeats[clgCAT]) % 1;
     }
