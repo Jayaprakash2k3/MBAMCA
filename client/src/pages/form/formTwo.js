@@ -9,30 +9,30 @@ import "react-toastify/dist/ReactToastify.css";
 import Select from "react-select";
 import { CourseList } from "./CourseList";
 
-const MCASeats={
-"GOVT":1,
-"GA(AIDED)":0.9,
-"GA(SS)":0.5,
-"UNIV":1,
-"MIN":0.3,
-"SA (NM)":0.5,
-"NM":0.5,
-}
-const MBASeats={
-  "GOVT":1,
-  "GA(AIDED)":0.9,
-  "GA(SS)":0.5,
-  "UNIV":1,
-  "MIN":0.3,
-  "SA (NM)":0.5,
-  "NM":0.5,
+const MCASeats = {
+  GOVT: 1,
+  "GA(AIDED)": 0.9,
+  "GA(SS)": 0.5,
+  UNIV: 1,
+  MIN: 0.3,
+  "SA (NM)": 0.5,
+  NM: 0.5,
+};
+const MBASeats = {
+  GOVT: 1,
+  "GA(AIDED)": 0.9,
+  "GA(SS)": 0.5,
+  UNIV: 1,
+  MIN: 0.3,
+  "SA (NM)": 0.5,
+  NM: 0.5,
 
-// "GA(SS)":0.5,
-// "NM":0.5,
-// "SA (NM)":0.5,
-// "MIN":0.3,
-// "UNIV":1,
-}
+  // "GA(SS)":0.5,
+  // "NM":0.5,
+  // "SA (NM)":0.5,
+  // "MIN":0.3,
+  // "UNIV":1,
+};
 
 const AccredationOptions = [
   { value: "ACC", label: "Accredited", disabled: true },
@@ -130,7 +130,8 @@ const FormTwo = ({ alter, toggleIconTab, Data, setParentCourse, updateCollegeInf
   const removeCourseOnFetch = (Course, clgCode) => {
     setclgCode(clgCode);
     if (["1", "2", "4", "2006", "2007", "5008"].includes(clgCode)) {
-      CourseList.push(...SSCourse);
+      // CourseList.push(...SSCourse);
+      CourseList.push(...Course);
     }
 
     Course?.forEach((element) => {
@@ -180,7 +181,7 @@ const FormTwo = ({ alter, toggleIconTab, Data, setParentCourse, updateCollegeInf
     data[index]["Surrender"] = 0;
     //MBACourse
     if (data[index]["courseName"].label.includes("MBA")) {
-      console.log(data[index]["courseName"],MBASeats[clgCAT],clgCAT);
+      console.log(data[index]["courseName"], MBASeats[clgCAT], clgCAT);
       data[index]["Govt"] = Math.floor(intake * MBASeats[clgCAT]);
       data[index]["Quota"] = MBASeats[clgCAT];
       data[index]["Pending"] = (intake * MBASeats[clgCAT]) % 1;
