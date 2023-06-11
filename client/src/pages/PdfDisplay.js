@@ -8980,12 +8980,12 @@ input:checked + .custom-switch:before {
       let i=1;
       Data.CourseDetails.forEach(element => {
     
-        x+= `<tr class="bg-white border-b dark:bg-gray-800 dark:border-slate-700 hover:bg-gray-50 dark:hover:bg-slate-900/20">
+        x+= `<tr style="border:2px solid black">
                              
-        <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
+        <th scope="row" class="px-6 my-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
           ${i}
         </th>
-        <td class="px-6 py-4">
+        <td colspan=2 class="px-6 py-4">
         ${element.courseName.label}
         </td>
         <td class="px-6 py-4">
@@ -9031,11 +9031,7 @@ input:checked + .custom-switch:before {
         name="viewport"
         content="width=device-width, initial-scale=1, shrink-to-fit=no"
       />
-      <meta
-        content="Tailwind Multipurpose Admin & Dashboard Template"
-        name="description"
-      />
-      <meta content="" name="Mannatthemes" />
+      
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <style>
       .watermark-container{
@@ -9048,6 +9044,22 @@ input:checked + .custom-switch:before {
       body {
         height: 100%;
       }
+      body:before{
+        content: ' ';
+        position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+        // position: absolute;
+        background:  url("${LogoDark2x}");
+        background-position: center;  
+        background-repeat: no-repeat;
+        background-size: contain;
+        z-index: -1;
+        opacity: 0.1;
+        scale: 0.6;
+      }
     </style>
   </head>
   <body data-layout-mode="light">
@@ -9058,7 +9070,7 @@ input:checked + .custom-switch:before {
             <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded">
                 <div class="fluid-container flex justify-center items-center">
                   <a class="flex items-center justify-center text-center">
-                    <img class="w-20 h-20 rounded inline-block mr-2" src="/static/media/logo-dark2x.b861be43fb160f184dd8.png" alt="Rounded avatar">
+                    <img class="w-20 h-20 rounded inline-block mr-2" src="${LogoDark2x}" alt="Rounded avatar">
                     <div class="container">
                       <span class="self-center text-center text-xl font-semibold whitespace-nowrap">Directorate of Technical Education - Chennai</span><br>
                       <span class="self-center text-center text-xl font-semibold whitespace-nowrap">Tamil Nadu Engineering Admission</span>
@@ -9074,21 +9086,21 @@ input:checked + .custom-switch:before {
     </div>
     <div class="card-body">
         <div class="fluid-container flex justify-center sm:rounded">
-            <table class="table-auto">
-                <thead>
-                    <tr class="bg-green-100  text-green-800 bg-primary-500 ">
-                        <th class="text-sm font-medium px-3 py-3 border-l border-black">
+            <table class="table-auto border-collapse bg-transparent">
+                <thead >
+                    <tr class="bg-green-100 text-green-800 bg-primary-500 border">
+                        <th class="text-sm font-medium px-3 my-3"  style="border:1px solid rgb(22 101 52)">
                             College Code
                         </th>
-                        <th class="text-sm font-medium px-3 py-3">
+                        <th class="text-sm font-medium px-3 my-3"  style="border:1px solid rgb(22 101 52)">
                         ${Data.ccode}
                         </th>                            
                     </tr>
-                    <tr class="bg-green-100 text-green-800 ">
-                        <th class="text-sm font-medium px-3 py-3 border-l border-black">
+                    <tr class="bg-green-100 text-green-800 border">
+                        <th class="text-sm font-medium px-3 py-3"  style="border:1px solid rgb(22 101 52)">
                             College Name
                         </th>
-                        <th class="text-sm font-medium  px-3 py-3">
+                        <th class="text-sm font-medium  px-3 py-3"  style="border:1px solid rgb(22 101 52)">
                         ${Data.can}
                         </th>                            
                     </tr>
@@ -9096,20 +9108,20 @@ input:checked + .custom-switch:before {
              </table>
         </div>                            
     </div>
-    <div class="card h-full">
+    <div class="card h-full bg-transparent">
         <div class="card-header">
             <h4 class="card-title text-center">Course Details</h4>
         </div><!--end card-header-->
         <div class="card-body">
             <div class="relative sm:rounded">    
-                <table class="w-full text-sm text-center text-gray-500 dark:text-gray-400">
-                    <thead class="text-xs text-gray-700 bg-gray-50 dark:bg-slate-700 dark:text-gray-300">
+                <table class="w-full text-sm text-center ">
+                    <thead class="text-xs text-gray-700 dark:text-gray-300"  style="border:2px solid black">
                         <tr>
                            
                             <th scope="col" class="p-5">
                                 Sl.
                             </th>
-                            <th scope="col" class="p-5" >
+                            <th scope="col" colspan=2 class="p-5" >
                                 Course Name
                             </th>
                             <th scope="col" class="p-5">
@@ -9149,11 +9161,11 @@ input:checked + .custom-switch:before {
     </div>
  </div>
     
- <div class="relative bottom-0 ">
+ <div class="bottom-0 ">
  <div class="fluid-container">
    <!-- Footer Start -->
    <footer class="footer mt-4 rounded-tr-md rounded-tl-md bg-white dark:bg-slate-800 p-4 text-center font-ligth text-slate-600 dark:text-slate-400 shadow md:text-left">
-   We, declare that we have thoroughly reviewed and verified all seat allocation matrix for TNEA. We have ensured that all
+   We, declare that we have thoroughly reviewed and verified all seat allocation matrix for PG-MBA/MCA Admission. We have ensured that all
    seats have been allocated appropriately and that no further changes will be made to the allocation matrix without proper
    authorization from the relevant authorities. We take full responsibility for any errors or omissions that may have occurred
    during the verification process and certify that all changes made to the matrix were necessary and within the scope of the
@@ -9161,10 +9173,10 @@ input:checked + .custom-switch:before {
 
    </footer>
    <div class="fluid-container flex justify-between mt-12" style="margin-top:100px">
-   <h3 class="p-5">
+   <h3 class="p-5 m-5">
    Chairman's Sign
    </h3>
-   <h3  class="p-5">
+   <h3  class="p-5 m-5">
    Principal's Sign
    </h3>
    </div>
@@ -9177,8 +9189,13 @@ input:checked + .custom-switch:before {
 <script>
 function printCurrentPage() {
   // Add a CSS rule to remove margins when printing
+  const styleone = document.createElement('style');
+  styleone.innerHTML = '@media print { body { -webkit-print-color-adjust: exact; background: print; } }';
+  document.head.appendChild(styleone);
+  const styletwo = document.createElement('style');
+  styletwo.innerHTML = '@page {size: landscape;margin: 2mm;}';
+  document.head.appendChild(styletwo);
   const style = document.createElement('style');
-  style.innerHTML = '@page { margin: 0; }';
   document.head.appendChild(style);
 
   // Trigger the print functionality
