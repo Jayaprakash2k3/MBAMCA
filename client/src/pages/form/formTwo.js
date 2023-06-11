@@ -7,7 +7,7 @@ import { backendURL } from "../../backendurl";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Select from "react-select";
-import { CourseList } from "./CourseList";
+import { CourseList,SSCourse} from "./CourseList";
 
 const MCASeats={
 "GOVT":1,
@@ -109,7 +109,7 @@ const FormTwo = ({ alter, toggleIconTab, Data, setParentCourse, updateCollegeInf
     } else {
       setclgCAT(data.Category);
     }
-    removeCourseOnFetch(data.CourseDetails, data.ccode);
+    removeCourseOnFetch(data.CourseDetails, data.Category);
   };
   useEffect(() => {
     getCollegeInfo();
@@ -127,9 +127,9 @@ const FormTwo = ({ alter, toggleIconTab, Data, setParentCourse, updateCollegeInf
     "form-validate": true,
     "is-alter": alter,
   });
-  const removeCourseOnFetch = (Course, clgCode) => {
+  const removeCourseOnFetch = (Course, Category) => {
     setclgCode(clgCode);
-    if (["1", "2", "4", "2006", "2007", "5008"].includes(clgCode)) {
+    if (["GA(SS)","UNIV"].includes(Category)) {
       CourseList.push(...SSCourse);
     }
 
