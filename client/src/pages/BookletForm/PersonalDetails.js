@@ -463,10 +463,10 @@ const PersonalDetails = ({alter,Data,toggleIconTab,updateCollegeInfo }) => {
                     id="nacc"
                     name="nacc"
                     classNamePrefix="react-select"
-                    onChange={(e) => {
-                      editFlag ? setNACC(e) : null;
-                      editFlag ? setNACCBool(e.value) : null;
-                    }}
+                    // onChange={(e) => {
+                    //   editFlag ? setNACC(e) : null;
+                    //   editFlag ? setNACCBool(e.value) : null;
+                    // }}
                     options={NACCOptions}
                     value={NACC}
                   />
