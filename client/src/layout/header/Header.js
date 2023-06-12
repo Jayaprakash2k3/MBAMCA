@@ -25,12 +25,11 @@ const Header = ({ fixed, theme, className, setVisibility, ...props }) => {
               click={props.sidebarToggle}
             />
           </div> */}
-          <div className="nk-sidebar-brand">
-          <Link to={`${process.env.PUBLIC_URL}/`} className="logo-link">
-          <img className="logo-small logo-img logo-img-small" src={logo2} alt="logo" />
-
-    </Link>
-          </div>
+          {/* <div className="nk-sidebar-brand">
+            <Link to={`${process.env.PUBLIC_URL}/`} className="logo-link">
+              <img className="logo-small logo-img logo-img-small" src={logo2} alt="logo" />
+            </Link>
+          </div> */}
           <div className="nk-header-tools">
             <ul className="nk-quick-nav">
               <li className="user-dropdown" onClick={() => setVisibility(false)}>
