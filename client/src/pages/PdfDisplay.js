@@ -9073,7 +9073,7 @@ input:checked + .custom-switch:before {
                     <img class="w-20 h-20 rounded inline-block mr-2" src="${LogoDark2x}" alt="Rounded avatar">
                     <div class="container">
                       <span class="self-center text-center text-xl font-semibold whitespace-nowrap">Directorate of Technical Education - Chennai</span><br>
-                      <span class="self-center text-center text-xl font-semibold whitespace-nowrap">Tamil Nadu Engineering Admission</span>
+                      <span class="self-center text-center text-xl font-semibold whitespace-nowrap">PG-MBA/MCA Admission</span>
                     </div>
                   </a>
                 </div>
@@ -9172,7 +9172,7 @@ input:checked + .custom-switch:before {
    project/task/assignment.
 
    </footer>
-   <div class="fluid-container flex justify-between mt-12" style="margin-top:100px">
+   <div class="fluid-container flex justify-between mt-12" style="margin-top:55px">
    <h3 class="p-5 m-5">
    Chairman's Sign
    </h3>

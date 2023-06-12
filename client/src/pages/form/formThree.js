@@ -37,7 +37,9 @@ const FormThree = ({ alter, toggleIconTab, Data, updateCollegeInfo }) => {
             Authorization: `Bearer ${localStorage.getItem("accessToken")}`,
           },
         }
-      );
+      ).then((res) => {
+      updateCollegeInfo();
+      })
     } catch (error) {
       toast.error("Something went wrong please try again");
     }
