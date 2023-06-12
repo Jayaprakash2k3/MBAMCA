@@ -10,20 +10,13 @@ import "react-toastify/dist/ReactToastify.css";
 import { PDFViewer } from "@react-pdf/renderer";
 import PdfDcoument from "../../utils/PdfUtils/generatorPdf";
 const FULLFORM = {
-  "CENTRAL GOVT": "CENTRAL GOVERNMENT",
-  CHRISTIAN: "CHRISTIAN",
   GOVT: "GOVERNMENT",
-  "GOVT AIDED": "GOVERNMENT AIDED",
-  HINDI: "HINDI",
-  JAIN: "JAIN",
-  MALAYALAM: "MALAYALAM",
-  "MALAYALAM LINGUISTIC": "MALAYALAM LINGUISTIC",
-  MIN: "MINORITY",
-  MUSLIM: "MUSLIM",
-  NM: "NON MINORITY",
-  SOWRASHTRA: "SOWRASHTRA",
-  TELUGU: "TELUGU",
+  "GA(AIDED)": "GOVERNMENT AIDED",
+  "GA(SS)": "GOVERNMENT AIDDED[SS]",
   UNIV: "UNIVERSITY",
+  MIN: "MINORITY",
+  "SA (NM)": "STAND ALONE[NM]",
+  NM: "NON MINORITY",
 };
 const FormOne = ({ alter, toggleIconTab, updateCollegeInfo, Data }) => {
   const [loading, setLoading] = useState(true);
