@@ -3,7 +3,7 @@ import { Button, Modal, ModalBody, ModalFooter } from "reactstrap";
 import { Block } from "../../components/block/Block";
 import axios from "axios";
 import FormData from "form-data";
-import { toast } from "react-toastify";
+import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { backendURL } from "../../backendurl";
 
@@ -43,7 +43,6 @@ const FormFour = ({ toggleIconTab, updateCollegeInfo, Data, alter }) => {
     try {
       var formData = new FormData();
       if (typeof collegeData?.Documents === "undefined" || collegeData?.Documents["seatMatrix"] != true) {
-      
         if (typeof seatMatrix == "undefined" || seatMatrix == "") {
           toast.warning("Seat matrix form is compulsory");
           return;
@@ -89,8 +88,9 @@ const FormFour = ({ toggleIconTab, updateCollegeInfo, Data, alter }) => {
             Authorization: `Bearer ${localStorage.getItem("accessToken")}`,
           },
         });
-       
+
         if (res.data.status) {
+          toast.success("Files added successfully");
           setSeatMatrix();
           inputseatMatrix.current.value = "";
           setAICTEApproval();
@@ -105,7 +105,6 @@ const FormFour = ({ toggleIconTab, updateCollegeInfo, Data, alter }) => {
           inputMinority.current.value = "";
           getCollegeData();
           getDocUrls();
-          toast.success("Files added successfully");
         }
       } else {
         toast.warning("Select atleast one field");
@@ -218,6 +217,7 @@ const FormFour = ({ toggleIconTab, updateCollegeInfo, Data, alter }) => {
 
   return (
     <Block size="lg" className="container-fluid align-items-center justify-content-center">
+      <ToastContainer />
       <Modal isOpen={show} onHide={handleClose} size="lg" aria-labelledby="contained-modal-title-vcenter" centered>
         <ModalBody>
           <h4>Warning</h4>
@@ -237,6 +237,9 @@ const FormFour = ({ toggleIconTab, updateCollegeInfo, Data, alter }) => {
         </ModalFooter>
       </Modal>
       <div className="table-responsive">
+        <p style={{ color: "purple", fontWeight: "bold" }}>
+          Refresh the page after uploading the docuemnt to see active changes
+        </p>
         <table className="table">
           <thead>
             <tr>

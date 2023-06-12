@@ -61,7 +61,7 @@ const User = () => {
             <div className="user-avatar">
               <span>CN</span>
             </div>
-            <div className="user-info">
+          <div className="user-info">
               <span className="lead-text">{data.name}</span>
               <span className="sub-text">Mail ID</span>
             </div>
@@ -78,19 +78,6 @@ const User = () => {
           </LinkList>
         </div> */}
         <div className="dropdown-inner">
-          <LinkList>
-            {/* <a href="https://youtu.be/cQi4x03U12E" target="_blank">
-              <Icon name="link"></Icon>
-              <span>Video Demo</span>
-            </a> */}
-            <a
-              href="https://drive.google.com/file/d/1pXIci9A25JDqATavp6jHKLtUDmtn_vLi/view?usp=share_link"
-              target="_blank"
-            >
-              <Icon name="link"></Icon>
-              <span>Video Tutorial</span>
-            </a>
-          </LinkList>
           <LinkList>
             <a href={`${process.env.PUBLIC_URL}/auth-login`} onClick={handleSignout}>
               <Icon name="signout"></Icon>
