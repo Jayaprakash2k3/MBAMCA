@@ -90,7 +90,7 @@ const FormThree = ({ alter, toggleIconTab, Data, updateCollegeInfo }) => {
         that all seats have been allocated appropriately and that no further changes will be made to the allocation
         matrix without proper authorization from the relevant authorities. We take full responsibility for any errors or
         omissions that may have occurred during the verification process and certify that all changes made to the matrix
-        were necessary and within the scope of the project/task/assignment.
+        were necessary and within the scope.
       </p>
 
       {(freezeFlag == true || declarationFlag == true) && (

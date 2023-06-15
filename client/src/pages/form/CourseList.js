@@ -15,14 +15,14 @@ export const CourseList = [
 {label:"MBA (APAREL MANAGEMENT)",value:"MBAAM"},
 {label:"MBA (RETAIL MANAGEMENT)",value:"MBARM"},
 {label:"MBA (TEXTILE MANAGEMENT)",value:"MBATM"},
+{label:"MBA (Transport and Logistics Management)",value:"MBATL"}
 ];
 
 export const SSCourse = [
 { value: 'MBAPS ', label: 'MBA (PART TIME) (SS) '},
-{ value: 'MBASS', label: 'MCA (SS) '},
+{ value: 'MCASS', label: 'MCA (SS) '},
 { value: 'MCAESS ', label: 'MCA (EVE)(SS) '},
 { value: 'MBAW ', label: 'MBA (Waste management and social entrepreneurship)  (SS)  '},
 { value: 'MBASS ', label: 'MBA (SS) '},
-{ value: 'MBASS ', label: 'MBA (TOURISM MANAGEMENT) (SS) '},
-   
+{ value: 'MBATSS ', label: 'MBA (TOURISM MANAGEMENT) (SS) '},
 ]

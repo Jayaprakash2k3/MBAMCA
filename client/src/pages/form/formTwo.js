@@ -17,6 +17,8 @@ const MCASeats = {
   MIN: 0.3,
   "SA (NM)": 0.5,
   NM: 0.5,
+  "AU DEPT": 1,
+  "CENTRAL GOVT": 0.5,
 };
 const MBASeats = {
   GOVT: 1,
@@ -26,6 +28,8 @@ const MBASeats = {
   MIN: 0.3,
   "SA (NM)": 0.5,
   NM: 0.5,
+  "AU DEPT": 1,
+  "CENTRAL GOVT": 0.5,
 
   // "GA(SS)":0.5,
   // "NM":0.5,
@@ -62,7 +66,7 @@ const FormTwo = ({ alter, toggleIconTab, Data, setParentCourse, updateCollegeInf
   const [freezeFlag, setfreezeFlag] = useState(false);
   const [comparingArray, setcomparingArray] = useState("");
   const [changesTracker, setchangesTracker] = useState(false);
-
+  const [ssCrs,setssCrs] = useState(false);
   const onFormSubmit = () => {
     fetch(`${backendURL}/setCourseDetails`, {
       method: "POST",
@@ -102,13 +106,7 @@ const FormTwo = ({ alter, toggleIconTab, Data, setParentCourse, updateCollegeInf
     setCourse(data.CourseDetails.length ? [...data.CourseDetails] : [courseSchema]);
     setcomparingArray(JSON.stringify(Course));
     setfreezeFlag(data?.Phase1Freeze ? true : false);
-    if (["1", "2", "3", "4"].includes(data.ccode)) setfreezeFlag(true);
-    setParentCourse(Course);
-    if (data.ccode === "2709") {
-      setclgCAT("IRTT");
-    } else {
-      setclgCAT(data.Category);
-    }
+    
     removeCourseOnFetch(data.CourseDetails, data.Category);
   };
   useEffect(() => {
@@ -129,8 +127,9 @@ const FormTwo = ({ alter, toggleIconTab, Data, setParentCourse, updateCollegeInf
   });
   const removeCourseOnFetch = (Course, Category) => {
     setclgCode(clgCode);
-    if (["GA(SS)","UNIV"].includes(Category)) {
+    if (["GA(SS)","UNIV","GA(AIDED)"].includes(Category) && ssCrs===false) {
       CourseList.push(...SSCourse);
+      setssCrs(true);
     }
 
     Course?.forEach((element) => {
@@ -180,6 +179,7 @@ const FormTwo = ({ alter, toggleIconTab, Data, setParentCourse, updateCollegeInf
     data[index]["Surrender"] = 0;
     //MBACourse
     if (data[index]["courseName"].label.includes("MBA")) {
+      
       console.log(data[index]["courseName"], MBASeats[clgCAT], clgCAT);
       data[index]["Govt"] = Math.round(intake * MBASeats[clgCAT]);
       data[index]["Quota"] = MBASeats[clgCAT];

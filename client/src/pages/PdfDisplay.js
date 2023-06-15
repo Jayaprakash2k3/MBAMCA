@@ -9128,7 +9128,7 @@ input:checked + .custom-switch:before {
                                 Course Code
                             </th>
                             <th scope="col" class="p-5">
-                                Accredation
+                            Accreditation
                             </th>
                             <th scope="col" class="p-5">
                               Intake
@@ -9167,9 +9167,7 @@ input:checked + .custom-switch:before {
    We, declare that we have thoroughly reviewed and verified all seat allocation matrix for PG-MBA/MCA Admission. We have ensured that all
    seats have been allocated appropriately and that no further changes will be made to the allocation matrix without proper
    authorization from the relevant authorities. We take full responsibility for any errors or omissions that may have occurred
-   during the verification process and certify that all changes made to the matrix were necessary and within the scope of the
-   project/task/assignment.
-
+   during the verification process and certify that all changes made to the matrix were necessary and within the scope.
    </footer>
    <div class="fluid-container flex justify-between mt-12" style="margin-top:55px">
    <h3 class="p-5 m-5">
