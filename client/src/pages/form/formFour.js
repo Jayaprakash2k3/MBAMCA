@@ -748,24 +748,27 @@ const FormFour = ({ toggleIconTab, updateCollegeInfo, Data, alter }) => {
           Submit Changes
         </Button>
       )}
-      <div
-        style={{
-          marginTop: "50px",
-          width: "100%",
-          alignItems: "center",
-          textAlign: "center",
-          justifyContent: "center",
-        }}
-      >
-        <button
-          onClick={handleShow}
-          disabled={freezeFlag}
-          style={{ width: "300px", height: "50px", justifyContent: "center" }}
-          className="btn btn-danger"
+      {collegeData?.DocumentUploadFlag && (
+        <div
+          style={{
+            marginTop: "50px",
+            width: "100%",
+            alignItems: "center",
+            textAlign: "center",
+            justifyContent: "center",
+          }}
         >
-          Freeze
-        </button>
-      </div>
+          <button
+            onClick={handleShow}
+            disabled={freezeFlag}
+            style={{ width: "300px", height: "50px", justifyContent: "center" }}
+            className="btn btn-danger"
+          >
+            Freeze
+          </button>
+        </div>
+      )}
+
       <div>
         <span style={{ color: "red" }}>*Important: </span>Click freeze button once you are done with all the changes,
         this action is irreversible.
