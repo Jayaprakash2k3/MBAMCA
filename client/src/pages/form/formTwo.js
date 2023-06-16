@@ -106,7 +106,7 @@ const FormTwo = ({ alter, toggleIconTab, Data, setParentCourse, updateCollegeInf
     setCourse(data.CourseDetails.length ? [...data.CourseDetails] : [courseSchema]);
     setcomparingArray(JSON.stringify(Course));
     setfreezeFlag(data?.Phase1Freeze ? true : false);
-    
+    setclgCAT(data.Category);
     removeCourseOnFetch(data.CourseDetails, data.Category);
   };
   useEffect(() => {
