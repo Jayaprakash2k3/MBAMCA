@@ -132,7 +132,7 @@ const FormFour = ({ toggleIconTab, updateCollegeInfo, Data, alter }) => {
       }
     } catch (error) {
       setloading(false);
-      toast.warning("Something went wrong! please try again");
+      toast.error("Something went wrong! please try again");
       console.log(error);
     }
   };
